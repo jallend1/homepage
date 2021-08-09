@@ -1,0 +1,33 @@
+.codeblock {
+  background: black;
+  border-radius: 15px;
+  font-size: 1.5em;
+  padding: 2em;
+  margin-bottom: 1.25em;
+  max-width: 600px;
+}
+
+.codeline {
+  padding-left: 2em;
+  padding-top: 0.75em;
+}
+
+.properties {
+  color: #2ce2db;
+}
+
+.values {
+  color: #ff8a37;
+}
+
+.delimiter {
+  color: #f0eff1;
+}
+
+.variables {
+  color: #f17ebb;
+}
+
+.declarations {
+  color: #fede5d;
+}

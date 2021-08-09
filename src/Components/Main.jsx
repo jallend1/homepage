@@ -1,4 +1,5 @@
 import coffee from '../assets/images/coffee.png';
+import CodeBlock from './CodeBlock';
 
 const Main = () => {
   return (
@@ -6,11 +7,13 @@ const Main = () => {
       <div id='left'>
         <img src={coffee} alt='Jason Allen drinking some coffee in Iceland' />
         <div className='greeting'>
-          <h1>Hello, there.</h1>
+          <h2>Hello, there.</h2>
           <h1>I'm Jason.</h1>
         </div>
       </div>
-      <div id='right'>Hi.</div>
+      <div id='right'>
+        <CodeBlock />
+      </div>
     </div>
   );
 };
