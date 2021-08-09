@@ -1,7 +1,6 @@
 .codeblock {
   background: black;
   border-radius: 15px;
-  font-size: 1.5em;
   padding: 2em;
   margin-bottom: 1.25em;
   max-width: 600px;
@@ -9,7 +8,7 @@
 
 .codeline {
   padding-left: 2em;
-  padding-top: 0.75em;
+  padding-top: 0.5em;
 }
 
 .properties {
