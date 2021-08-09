@@ -1,13 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(150)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(12, 85%, 60%, 1)'/><path d='M20-5V5m0 30v10m20-30v10M0 15v10'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(90,1.2%,31.4%,1)' fill='none'/><path d='M-5 40H5M-5 0H5m30 0h10M35 40h10M15 20h10'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(198,63.3%,38.4%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.App {
+  background-color: #fff;
+  width: 90vw;
+  margin: 2em auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1.25em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% auto;
+  column-gap: 30px;
+}
+
+#left {
+  position: relative;
+  height: 100%;
+}
+
+#left img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.greeting {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #fff;
 }
