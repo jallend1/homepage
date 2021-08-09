@@ -21,6 +21,9 @@ const Main = () => {
           </h1>
           <h2 className='subtitle'>&lt;/coder&gt;</h2>
         </div>
+        <div className='contact'>
+          <button className='btn'>Get in touch.</button>
+        </div>
       </div>
     </div>
   );

@@ -95,3 +95,19 @@ h2 {
   letter-spacing: 0.75em;
   color: slategray;
 }
+
+.contact {
+  margin: auto;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.btn {
+  background-color: #fff;
+  color: #fff;
+  background-color: #067bc2;
+  padding: 1em 3em;
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: bold;
+}
