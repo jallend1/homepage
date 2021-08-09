@@ -57,7 +57,7 @@ const CodeBlock = () => {
         <span className="variables">]</span>
         <span className="delimiter">, </span>
       </div>
-      <div className="codeline">
+      {/* <div className="codeline">
         <span className="properties">social</span>
         <span className="delimiter">: </span>
         <span className="variables">[</span>
@@ -66,10 +66,10 @@ const CodeBlock = () => {
           <span className="properties">link</span>
           <span className="delimiter">: </span>
           <span className="values">&quot;LinkedIn&quot;</span>
-          {/* <span className="delimiter">, </span>
+          <span className="delimiter">, </span>
           <span className="properties">link</span>
           <span className="delimiter">: </span>
-          <span className="values">&quot;jallend1&quot;</span> */}
+          <span className="values">&quot;jallend1&quot;</span>
           <span className="declarations">{"}"}</span>
           <span className="delimiter">, </span>
         </div>
@@ -78,10 +78,10 @@ const CodeBlock = () => {
           <span className="properties">link</span>
           <span className="delimiter">: </span>
           <span className="values">&quot;Twitter&quot;</span>
-          {/* <span className="delimiter">, </span>
+          <span className="delimiter">, </span>
           <span className="properties">link</span>
           <span className="delimiter">: </span>
-          <span className="values">&quot;jallend1&quot;</span> */}
+          <span className="values">&quot;jallend1&quot;</span>
           <span className="declarations">{"}"}</span>
           <span className="delimiter">, </span>
         </div>
@@ -90,14 +90,14 @@ const CodeBlock = () => {
           <span className="properties">link</span>
           <span className="delimiter">: </span>
           <span className="values">&quot;GitHub&quot;</span>
-          {/* <span className="delimiter">, </span>
+          <span className="delimiter">, </span>
           <span className="properties">link</span>
           <span className="delimiter">: </span>
-          <span className="values">&quot;jallend1&quot;</span> */}
+          <span className="values">&quot;jallend1&quot;</span>
           <span className="declarations">{"}"}</span>
           <span className="variables">]</span>
         </div>
-      </div>
+      </div> */}
       <div>
         <span className="declarations">{"}"}</span>
       </div>

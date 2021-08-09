@@ -4,19 +4,27 @@ const NavBar = () => {
   return (
     <BrowserRouter>
       <nav>
-        <p className='logo'>
-          <Link to='/'>Jason D. Allen</Link>
+        <p>
+          <Link to='/' className='logo'>
+            Jason D. Allen
+          </Link>
         </p>
         <div>
-          <ul>
+          <ul className='menu'>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/' className='menu-item'>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to='/projects'>Projects</Link>
+              <Link className='menu-item' to='/projects'>
+                Projects
+              </Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/about' className='menu-item'>
+                About
+              </Link>
             </li>
           </ul>
         </div>
