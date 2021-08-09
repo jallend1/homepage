@@ -1,9 +1,8 @@
 .codeblock {
-  background: black;
+  background: #1d1a17;
   border-radius: 15px;
   padding: 2em;
   margin-bottom: 1.25em;
-  max-width: 600px;
 }
 
 .codeline {

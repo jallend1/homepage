@@ -1,5 +1,10 @@
-import coffee from '../assets/images/coffee.png';
 import CodeBlock from './CodeBlock';
+
+import coffee from '../assets/images/coffee.png';
+import email from '../assets/images/email.svg';
+import gitHub from '../assets/images/github.svg';
+import linkedIn from '../assets/images/linkedin.svg';
+import twitter from '../assets/images/twitter.svg';
 
 const Main = () => {
   return (
@@ -13,18 +18,35 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div id='right'>
+      <div className='right'>
         <CodeBlock />
-        <div className='blurb'>
-          <h2 className='subtitle'>&lt;coder&gt;</h2>
-          <h1>
+        {/* <div className='contact'>
+          <button className='btn'>Explore.</button>
+        </div> */}
+        {/* <div className='blurb'>
+          <h4 className='subtitle'>&lt;coder&gt;</h4>
+          <h3>
             Using elegant code to craft
             <span className='clean'> beautifully simple</span> web experiences.
-          </h1>
-          <h2 className='subtitle'>&lt;/coder&gt;</h2>
-        </div>
+          </h3>
+          <h4 className='subtitle'>&lt;/coder&gt;</h4>
+        </div> */}
         <div className='contact'>
-          <button className='btn'>Get in touch.</button>
+          <h2>Contact</h2>
+          <div className='social'>
+            <div>
+              <img src={gitHub} alt='GitHub' />
+            </div>
+            <div>
+              <img src={linkedIn} alt='LinkedIn' />
+            </div>
+            <div>
+              <img src={email} alt='email' />
+            </div>
+            <div>
+              <img src={twitter} alt='twitter' />
+            </div>
+          </div>
         </div>
       </div>
     </div>
