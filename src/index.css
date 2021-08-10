@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
-
-html,
-body {
-  padding: 0;
+* {
   margin: 0;
-  max-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 95vh;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,7 +15,7 @@ body {
 
 .App {
   background-color: #fff;
-  max-width: 90vw;
+  max-width: 80vw;
   margin: 2em auto;
 }
 
@@ -24,12 +26,15 @@ nav {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7vw;
   font-weight: 100;
+  margin: 0;
+  line-height: 1.5ch;
+  padding-bottom: 1rem;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 2vw;
 }
 
 h1,
@@ -70,18 +75,19 @@ h2 {
 
 .container {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   padding: 2em;
 }
 
 .image {
   position: relative;
+  max-width: 80%;
+  min-width: 300px;
 }
 
 .image img {
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
   object-fit: contain;
   filter: brightness(0.5);
 }
