@@ -150,6 +150,11 @@ h2 {
   min-width: 50px;
 }
 
+.email {
+  color: red;
+  background-color: green;
+}
+
 .btn {
   background-color: #fff;
   color: #fff;
