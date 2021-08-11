@@ -100,6 +100,30 @@ h2 {
   color: #fff;
 }
 
+.greeting h2 {
+  font-family: monospace;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: keystroke 2s steps(20), blink 0.5s step-end infinite alternate;
+  border-right: 3px solid white;
+}
+
+@keyframes keystroke {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .right {
   display: flex;
   flex-direction: column;
