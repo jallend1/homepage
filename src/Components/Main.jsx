@@ -1,5 +1,4 @@
 import CodeBlock from './CodeBlock';
-
 import coffee from '../assets/images/coffee.png';
 import email from '../assets/images/email.svg';
 import gitHub from '../assets/images/github.svg';
@@ -35,16 +34,22 @@ const Main = () => {
           <h2>Contact</h2>
           <div className='social'>
             <div>
-              <img src={gitHub} alt='GitHub' />
+              <a href='http://www.github.com/jallend1/'>
+                <img src={gitHub} alt='GitHub' />
+              </a>
             </div>
             <div>
-              <img src={linkedIn} alt='LinkedIn' />
+              <a href='http://linkedin.com/in/jallend1/'>
+                <img src={linkedIn} alt='LinkedIn' />
+              </a>
             </div>
             <div>
               <img src={email} alt='email' />
             </div>
             <div>
-              <img src={twitter} alt='twitter' />
+              <a href='http://www.twitter.com/jallend1'>
+                <img src={twitter} alt='twitter' />
+              </a>
             </div>
           </div>
         </div>
