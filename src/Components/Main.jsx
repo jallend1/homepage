@@ -33,20 +33,20 @@ const Main = () => {
         <div className='contact'>
           <h2>Contact</h2>
           <div className='social'>
-            <div>
+            <div className='social-link'>
               <a href='http://www.github.com/jallend1/'>
                 <img src={gitHub} alt='GitHub' />
               </a>
             </div>
-            <div>
+            <div className='social-link'>
               <a href='http://linkedin.com/in/jallend1/'>
                 <img src={linkedIn} alt='LinkedIn' />
               </a>
             </div>
-            <div>
+            <div className='social-link'>
               <img src={email} alt='email' />
             </div>
-            <div>
+            <div className='social-link'>
               <a href='http://www.twitter.com/jallend1'>
                 <img src={twitter} alt='twitter' />
               </a>
