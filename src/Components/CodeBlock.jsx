@@ -65,6 +65,8 @@ const CodeBlock = () => {
           <span className='values'>&quot;Netlify&quot;</span>
           <span className='delimiter'>, </span>
           <span className='values'>&quot;VSCode&quot;</span>
+          <span className='delimiter'>, </span>
+          <span className='values'>&quot;MaterialUI&quot;</span>
           <span className='variables'>]</span>
           <span className='delimiter'>, </span>
         </div>
