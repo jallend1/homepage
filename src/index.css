@@ -21,16 +21,10 @@ body {
 }
 
 nav {
-  padding: 0 2em;
+  padding: 1em 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-@media (min-width: 725px) {
-  nav {
-    justify-content: space-between;
-  }
 }
 
 h1 {
@@ -52,11 +46,17 @@ h2 {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: bold;
   margin: 0;
   text-decoration: none;
-  color: #067bc2;
+  color: black;
+}
+
+nav > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu {
@@ -172,4 +172,16 @@ h2 {
   border-radius: 25px;
   font-size: 1em;
   font-weight: bold;
+}
+
+@media (max-width: 724px) {
+  .logo {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 725px) {
+  nav {
+    justify-content: space-between;
+  }
 }
