@@ -1,3 +1,10 @@
+import javascript from '../assets/images/shields/javascript.svg';
+import css3 from '../assets/images/shields/css3.svg';
+import reactjs from '../assets/images/shields/react.svg';
+import html5 from '../assets/images/shields/html5.svg';
+import markdown from '../assets/images/shields/markdown.svg';
+import next from '../assets/images/shields/Next.svg';
+import node from '../assets/images/shields/node.svg';
 import '../styles/CodeBlock.css';
 
 const CodeBlock = () => {
@@ -33,7 +40,14 @@ const CodeBlock = () => {
           <span className='delimiter'>: </span>
         </div>
         <div>
-          <span className='variables'>[</span>
+          <span><img src={javascript} /></span>
+          <span><img src={reactjs} /></span>
+          <span><img src={markdown} /></span>
+          <span><img src={next} /></span>
+          <span><img src={node} /></span>
+          <span><img src={css3} /></span>
+          <span><img src={html5} /></span>
+          {/* <span className='variables'>[</span>
           <span className='values'>&quot;JavaScript&quot;</span>
           <span className='delimiter'>, </span>
           <span className='values'>&quot;React&quot;</span>
@@ -48,7 +62,7 @@ const CodeBlock = () => {
           <span className='delimiter'>, </span>
           <span className='values'>&quot;HTML&quot;</span>
           <span className='variables'>]</span>
-          <span className='delimiter'>, </span>
+          <span className='delimiter'>, </span> */}
         </div>
         <div className='key'>
           <span className='properties'>tools</span>
