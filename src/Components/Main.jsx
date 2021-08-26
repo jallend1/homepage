@@ -1,5 +1,6 @@
 import CodeBlock from './CodeBlock';
-import coffee from '../assets/images/coffee.png';
+// import coffee from '../assets/images/coffee.png';
+import coffee from '../assets/images/jason-1.jpg';
 import email from '../assets/images/email.svg';
 import gitHub from '../assets/images/github.svg';
 import linkedIn from '../assets/images/linkedin.svg';
