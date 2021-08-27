@@ -24,6 +24,9 @@ const NavBar = () => {
             About
           </NavLink>
         </li>
+        <li className='menu-item cta'>
+          CONTACT
+        </li>
       </ul>
     </nav>
   );
