@@ -41,3 +41,13 @@
 .declarations {
   color: #fede5d;
 }
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills img {
+  padding: 0 1em 0.5em 0;
+}

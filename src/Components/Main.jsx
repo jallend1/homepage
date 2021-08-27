@@ -32,7 +32,7 @@ const Main = () => {
           <h4 className='subtitle'>&lt;/coder&gt;</h4>
         </div> */}
         <div className='contact'>
-          <h2>Contact</h2>
+          <h2>Connect</h2>
           <div className='social'>
             <div className='social-link'>
               <a href='http://www.github.com/jallend1/'>

@@ -36,17 +36,17 @@ const CodeBlock = () => {
           <span className='delimiter'>, </span>
         </div>
         <div className='key'>
-          <span className='properties'>coding</span>
+          <span className='properties'>languages</span>
           <span className='delimiter'>: </span>
         </div>
-        <div>
-          <span><img src={javascript} /></span>
-          <span><img src={reactjs} /></span>
-          <span><img src={markdown} /></span>
-          <span><img src={next} /></span>
-          <span><img src={node} /></span>
-          <span><img src={css3} /></span>
-          <span><img src={html5} /></span>
+        <div className="skills">
+          <img src={javascript} alt="JavaScript" />
+          <img src={reactjs} alt="React JS" />
+          <img src={next} alt="Next JS"/>
+          <img src={node} alt="Node JS"/>
+          <img src={css3} alt="CSS3"/>
+          <img src={markdown} alt="Markdown"/>
+          <img src={html5} alt="HTML 5"/>
           {/* <span className='variables'>[</span>
           <span className='values'>&quot;JavaScript&quot;</span>
           <span className='delimiter'>, </span>
