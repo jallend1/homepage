@@ -36,6 +36,26 @@ const CodeBlock = () => {
           <span className='delimiter'>, </span>
         </div>
         <div className='key'>
+          <span className='properties'>tooling</span>
+          <span className='delimiter'>: </span>
+        </div>
+        <div>
+          <span className='variables'>[</span>
+          <span className='values'>&quot;Git&quot;</span>
+          <span className='delimiter'>, </span>
+          <span className='values'>&quot;Firebase&quot;</span>
+          <span className='delimiter'>, </span>
+          <span className='values'>&quot;Figma&quot;</span>
+          <span className='delimiter'>, </span>
+          <span className='values'>&quot;VSCode&quot;</span>
+          <span className='delimiter'>, </span>
+          <span className='values'>&quot;MaterialUI&quot;</span>
+          <span className='delimiter'>, </span>
+          <span className='values'>&quot;Bootstrap&quot;</span>
+          <span className='variables'>]</span>
+          <span className='delimiter'>, </span>
+        </div>
+        <div className='key'>
           <span className='properties'>languages</span>
           <span className='delimiter'>: </span>
         </div>
@@ -63,26 +83,6 @@ const CodeBlock = () => {
           <span className='values'>&quot;HTML&quot;</span>
           <span className='variables'>]</span>
           <span className='delimiter'>, </span> */}
-        </div>
-        <div className='key'>
-          <span className='properties'>tools</span>
-          <span className='delimiter'>: </span>
-        </div>
-        <div>
-          <span className='variables'>[</span>
-          <span className='values'>&quot;Git&quot;</span>
-          <span className='delimiter'>, </span>
-          <span className='values'>&quot;Firebase&quot;</span>
-          <span className='delimiter'>, </span>
-          <span className='values'>&quot;Figma&quot;</span>
-          <span className='delimiter'>, </span>
-          <span className='values'>&quot;Netlify&quot;</span>
-          <span className='delimiter'>, </span>
-          <span className='values'>&quot;VSCode&quot;</span>
-          <span className='delimiter'>, </span>
-          <span className='values'>&quot;MaterialUI&quot;</span>
-          <span className='variables'>]</span>
-          <span className='delimiter'>, </span>
         </div>
       </div>
       <div>
