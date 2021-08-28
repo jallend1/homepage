@@ -1,5 +1,6 @@
 .codeblock {
-  background: #1d1a17;
+  /* background: #1d1a17; */
+  background-color: #3a3a3a;
   border-radius: 15px;
   padding: 2em;
   margin-bottom: 1.25em;
