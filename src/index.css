@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 
 * {
   margin: 0;
@@ -7,8 +7,7 @@
 }
 
 body {
-  min-height: 95vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(150)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(12, 85%, 60%, 1)'/><path d='M20-5V5m0 30v10m20-30v10M0 15v10'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(90,1.2%,31.4%,1)' fill='none'/><path d='M-5 40H5M-5 0H5m30 0h10M35 40h10M15 20h10'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(198,63.3%,38.4%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>"); */
@@ -30,6 +29,11 @@ nav {
   justify-content: center;
 }
 
+nav p {
+  display: flex;
+  align-items: center;
+}
+
 h1 {
   font-size: 7vw;
   font-weight: 100;
@@ -49,7 +53,7 @@ h2 {
 }
 
 .logo {
-  font-size: 2vw;
+  font-size: 1vw;
   font-weight: bold;
   margin: 0;
   text-decoration: none;
@@ -73,7 +77,7 @@ nav > a {
 
 .menu-item {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 0.75em;
   font-weight: bold;
   margin-left: 2em;
   color: #000;
