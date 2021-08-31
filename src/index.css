@@ -163,10 +163,6 @@ nav > a {
   max-width: 90%;
 }
 
-.codeblock {
-  box-shadow: 0 20px 30px -10px rgb(40, 60, 80);
-}
-
 .contact {
   margin: auto;
   text-align: center;

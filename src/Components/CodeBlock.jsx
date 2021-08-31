@@ -43,15 +43,15 @@ const CodeBlock = () => {
           <span className="variables">[</span>
           <span className="values">&quot;Git&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;Firebase&quot;</span>
+          <span className="values">&nbsp;&quot;Firebase&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;Figma&quot;</span>
+          <span className="values">&nbsp;&quot;Figma&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;VSCode&quot;</span>
+          <span className="values">&nbsp;&quot;VSCode&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;MaterialUI&quot;</span>
+          <span className="values">&nbsp;&quot;MaterialUI&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;Bootstrap&quot;</span>
+          <span className="values">&nbsp;&quot;Bootstrap&quot;</span>
           <span className="variables">]</span>
           <span className="delimiter">, </span>
         </div>
@@ -70,19 +70,18 @@ const CodeBlock = () => {
           <span className="variables">[</span>
           <span className="values">&quot;JavaScript&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;React&quot;</span>
+          <span className="values">&nbsp;&quot;React&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;Next.js&quot;</span>
+          <span className="values">&nbsp;&quot;Next.js&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;Node.js&quot;</span>
+          <span className="values">&nbsp;&quot;Node.js&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;Markdown&quot;</span>
+          <span className="values">&nbsp;&quot;Markdown&quot;</span>
           <span className="delimiter">, </span>
-          <span className="values">&quot;CSS&quot;</span>
+          <span className="values">&nbsp;&quot;CSS&quot;</span>
           <span className="delimiter">,</span>
-          <span className="values">&quot;HTML&quot;</span>
+          <span className="values">&nbsp;&quot;HTML&quot;</span>
           <span className="variables">]</span>
-          <span className="delimiter">, </span>
         </div>
       </div>
       <div>

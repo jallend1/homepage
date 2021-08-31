@@ -1,5 +1,4 @@
 import CodeBlock from "./CodeBlock";
-// import coffee from '../assets/images/coffee.png';
 import coffee from "../assets/images/jason-1.jpg";
 import email from "../assets/images/email.svg";
 import gitHub from "../assets/images/github.svg";
@@ -20,9 +19,6 @@ const Main = () => {
       </div>
       <div className="right">
         <CodeBlock />
-        {/* <div className='contact'>
-          <button className='btn'>Explore.</button>
-        </div> */}
         {/* <div className='blurb'>
           <h4 className='subtitle'>&lt;coder&gt;</h4>
           <h3>
