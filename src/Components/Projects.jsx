@@ -1,24 +1,31 @@
-import acnhScreen from '../assets/images/acnh.png';
-import '../styles/projects.css';
+import acnhScreen from "../assets/images/acnh.png";
+import taskmanScreen from "../assets/images/taskmanScreen.png";
+import "../styles/projects.css";
 const Projects = () => {
   const projects = [
     {
-      title: 'Animal Crossing Collectible Guide',
+      title: "Animal Crossing Collectible Guide",
       image: acnhScreen,
-      git: 'https://github.com/jallend1/acnhreboot',
-      live: ''
-    }
+      git: "https://github.com/jallend1/acnhreboot",
+      live: "https://frosty-lamport-4bd235.netlify.app/",
+    },
+    {
+      title: "TaskMan",
+      image: taskmanScreen,
+      git: "https://github.com/jallend1/taskman",
+      live: "https://epic-bhaskara-890fe0.netlify.app/",
+    },
   ];
   return (
     <>
       <h2>Projects</h2>
-      <div className='project'>
+      <div className="project">
         {projects.map((project) => (
           <div>
             <h3>{project.title}</h3>
             <div>
               <img
-                className='projectImage'
+                className="projectImage"
                 src={project.image}
                 alt={`Screenshot of ${project.title}`}
               />

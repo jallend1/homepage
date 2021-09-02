@@ -78,6 +78,8 @@ const CodeBlock = () => {
           <span className="delimiter">, </span>
           <span className="values">&nbsp;&quot;Markdown&quot;</span>
           <span className="delimiter">, </span>
+          <span className="values">&nbsp;&quot;JSON&quot;</span>
+          <span className="delimiter">, </span>
           <span className="values">&nbsp;&quot;CSS&quot;</span>
           <span className="delimiter">,</span>
           <span className="values">&nbsp;&quot;HTML&quot;</span>
