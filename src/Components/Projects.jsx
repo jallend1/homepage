@@ -19,9 +19,9 @@ const Projects = () => {
   return (
     <>
       <h2>Projects</h2>
-      <div className="project">
+      <div className="projects">
         {projects.map((project) => (
-          <div>
+          <div className="project" key={project.image}>
             <h3>{project.title}</h3>
             <div>
               <img
@@ -30,7 +30,7 @@ const Projects = () => {
                 alt={`Screenshot of ${project.title}`}
               />
             </div>
-            <div>
+            <div className="projectLinks">
               <p>
                 View Code on <a href={project.git}>Github</a>
               </p>

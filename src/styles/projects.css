@@ -1,8 +1,35 @@
-.project {
-  max-width: 800px;
+.projects {
   margin: auto;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+}
+
+.project {
+  padding: 1em;
+  background-color: #1d1a17;
+  margin: 1em;
+  color: #e8e8e8;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #e8e8e8;
 }
 
 .projectImage {
+  padding: 1em 0;
   max-width: 100%;
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #00c0c0;
 }
