@@ -11,17 +11,17 @@ const NavBar = () => {
       <ul className='menu'>
         <li>
           <NavLink to='/' className='menu-item' exact>
-            Home
+            01 - Home
           </NavLink>
         </li>
         <li>
           <NavLink className='menu-item' to='/projects'>
-            Projects
+            02 - Projects
           </NavLink>
         </li>
         <li>
           <NavLink to='/about' className='menu-item'>
-            About
+            03 - About
           </NavLink>
         </li>
         <li className='menu-item cta'>
