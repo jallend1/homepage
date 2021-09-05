@@ -14,11 +14,13 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1d1a17;
+  background-color: #327be0;
 }
 
 .App {
-  background-color: #e8e8e8;
+  /* background-color: #e8e8e8; */
+  background-color: #327be0;
+  color: #eee;
   max-width: 85vw;
   margin: 2em auto;
   border-radius: 5px;
@@ -59,7 +61,7 @@ h2 {
   font-weight: bold;
   margin: 0;
   text-decoration: none;
-  color: black;
+  color: #eee;
 }
 
 nav > a {
@@ -82,12 +84,13 @@ nav > a {
   font-size: 0.9em;
   font-weight: bold;
   margin-left: 2em;
-  color: #000;
+  color: #eee;
   text-decoration: none;
 }
 
 .cta {
-  background-color: #4a45ba;
+  /* background-color: #4a45ba; */
+  background-color: #e05848;
   color: #eee;
   padding: 1.2em;
   border-radius: 10px;
