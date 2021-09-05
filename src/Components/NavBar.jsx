@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "../styles/navBar.css";
 
 const NavBar = () => {
   return (
@@ -11,17 +12,17 @@ const NavBar = () => {
       <ul className="menu">
         <li>
           <NavLink to="/" className="menu-item" exact>
-            1. Home
+            Home
           </NavLink>
         </li>
         <li>
           <NavLink className="menu-item" to="/projects">
-            2. Projects
+            Projects
           </NavLink>
         </li>
         <li>
           <NavLink to="/about" className="menu-item">
-            3. About
+            About
           </NavLink>
         </li>
         <li className="menu-item cta">CONTACT</li>
