@@ -141,3 +141,7 @@ h2 {
     justify-content: space-between;
   }
 }
+
+svg {
+  fill: #f5e320;
+}
