@@ -1,5 +1,6 @@
 .codeblock {
   background: #1d1a17;
+  /* background-color: #eee; */
   border-radius: 15px;
   padding: 2em;
   margin-bottom: 1.25em;
@@ -25,10 +26,12 @@
 
 .properties {
   color: #2ce2db;
+  /* color: #e04542; */
 }
 
 .values {
   color: #ff8a37;
+  /* color: #3fa17c; */
 }
 
 .delimiter {
@@ -41,6 +44,7 @@
 
 .declarations {
   color: #fede5d;
+  /* color: #00f; */
 }
 
 .skills {
