@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const Contact = () => {
   return (
     <div className="contact">
@@ -43,7 +45,11 @@ const Contact = () => {
           </svg>
         </div>
         <div className="social-link">
-          <a href="http://www.twitter.com/jallend1">
+          <a
+            href="http://www.twitter.com/jallend1"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g data-name="Layer 2">
                 <g data-name="twitter">

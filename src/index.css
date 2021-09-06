@@ -15,6 +15,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #327be0;
+  background: radial-gradient(
+    circle,
+    rgba(50, 123, 224, 1) 0%,
+    rgba(130, 180, 246, 1) 100%
+  );
   color: #eee;
   max-width: 85vw;
   margin: 2em auto;
@@ -120,20 +125,8 @@ h2 {
   transform: scale(1.5);
 }
 
-.btn {
-  background-color: #fff;
-  color: #fff;
-  background-color: #067bc2;
-  padding: 1em 3em;
-  border-radius: 25px;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-@media (max-width: 724px) {
-  .logo {
-    font-size: 10px;
-  }
+.social-link:active {
+  border: dashed 1px #e05848;
 }
 
 @media (min-width: 725px) {
