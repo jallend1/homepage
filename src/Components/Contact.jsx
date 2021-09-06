@@ -6,7 +6,11 @@ const Contact = () => {
       <h2>Connect</h2>
       <div className="social">
         <div className="social-link">
-          <a href="http://www.github.com/jallend1/">
+          <a
+            href="http://www.github.com/jallend1/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g data-name="Layer 2">
                 <rect width="24" height="24" opacity="0" />
@@ -16,7 +20,11 @@ const Contact = () => {
           </a>
         </div>
         <div className="social-link">
-          <a href="http://linkedin.com/in/jallend1/">
+          <a
+            href="http://linkedin.com/in/jallend1/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g data-name="Layer 2">
                 <g data-name="linkedin">
