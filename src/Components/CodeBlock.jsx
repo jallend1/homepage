@@ -22,9 +22,7 @@ const CodeBlock = () => {
           <span className="delimiter">: </span>
         </div>
         <div>
-          <span className="values">&quot;he&quot;</span>
-          <span className="declarations"> || </span>
-          <span className="values">&quot;him&quot;</span>
+          <span className="values">&quot;he&quot; || &quot;him&quot;</span>
           <span className="delimiter">, </span>
         </div>
         <div className="key">
