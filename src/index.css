@@ -15,6 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #327be0;
+  background-color: #002c75;
   /* background: radial-gradient(
     circle,
     rgba(50, 123, 224, 1) 0%,
@@ -136,5 +137,6 @@ h2 {
 }
 
 svg {
-  fill: #f5e320;
+  /* fill: #f5e320; */
+  fill: #ffc528;
 }
