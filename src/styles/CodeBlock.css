@@ -1,9 +1,8 @@
 .codeblock {
   background: #1d1a17;
   border-radius: 15px;
-  padding: 2em;
-  margin-bottom: 1.25em;
-  box-shadow: 0 20px 30px -10px rgb(40, 60, 80);
+  padding: 1.2em;
+  box-shadow: 0 20px 30px -10px rgb(20, 20, 80);
 }
 
 .objectContents {
