@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Contact = () => {
   return (
     <div className="contact">
@@ -43,6 +41,7 @@ const Contact = () => {
           </a>
         </div>
         <div className="social-link">
+          <a href="mailto:jallend1@gmail.com" target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <g data-name="Layer 2">
               <g data-name="email">
@@ -51,6 +50,7 @@ const Contact = () => {
               </g>
             </g>
           </svg>
+          </a>
         </div>
         <div className="social-link">
           <a
