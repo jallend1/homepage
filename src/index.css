@@ -132,7 +132,7 @@ h2 {
   nav {
     justify-content: space-between;
   }
-  h2 {
+  .contact h2 {
     font-size: 5vw;
   }
 }
