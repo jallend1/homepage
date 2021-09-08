@@ -14,10 +14,17 @@ const Projects = () => {
       live: 'https://frosty-lamport-4bd235.netlify.app/'
     },
     {
-      title: 'TaskMan',
+      title: 'TaskMan 3.0',
       image: taskmanScreen,
-      description: 'A task manager that will have a better description shortly',
-      uses: ['React', 'Firebase', 'Firebase Authenticator', 'Netlify'],
+      description:
+        'TaskMan is a project management web app that allows for multiple to-do lists to be created outlining the individual steps needed to complete each project. The very next action from each of these projects is also extracted and centralized on the homepage to help facilitate meaningful progress towards completion of all projects.',
+      uses: [
+        'React',
+        'Firebase',
+        'Firebase Authenticator',
+        'Material-UI',
+        'Netlify'
+      ],
       git: 'https://github.com/jallend1/taskman',
       live: 'https://epic-bhaskara-890fe0.netlify.app/'
     }
