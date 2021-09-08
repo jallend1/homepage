@@ -3,17 +3,22 @@
   padding: 2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 50px;
 }
 
 .project {
   padding: 1em;
-  background-color: #1d1a17;
-  margin: 1em;
+  /* background-color: #1d1a17; */
+  background-color: #5980c2;
   color: #e8e8e8;
-  max-width: 80%;
   margin: auto;
   border-radius: 10px;
+}
+
+svg {
+  fill: #e8e8e8;
+  width: 30px;
 }
 
 h3 {
