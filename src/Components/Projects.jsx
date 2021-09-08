@@ -5,12 +5,10 @@ import taskmanScreen from '../assets/images/taskmanScreen.png';
 const Projects = () => {
   const projects = [
     {
-      title: 'An Animal Crossing: New Horizons Creature and Collectible Guide',
+      title: 'Animal Crossing: New Horizons Creature and Collectible Guide',
       image: acnhScreen,
       description:
-        'The COVID-19 pandemic fundamentally altered the landscape of what leisure activities were available to us, but mercifully Nintendo came to the rescue with the release of their latest Animal Crossing installment.',
-      description2:
-        "Using the 'ACNH API', I crafted a React.js application that allows you to keep a checklist of which items you have, and also determine which ones are available based on the current date and time. You're also able scope out all the art, songs, and villagers you might want to recruit to your town.",
+        "Explore the art, fossils and villagers of the Animal Crossing world, as well as keep a running list of which fish, birds, and bugs you have added to your collection. Missing from your collection? Scope out the details to see when it's available.",
       uses: ['React', 'JSON', 'API', 'Materialize', 'Netlify'],
       git: 'https://github.com/jallend1/acnhreboot',
       live: 'https://frosty-lamport-4bd235.netlify.app/'
@@ -33,7 +31,7 @@ const Projects = () => {
             <header>
               <div className='projectLinks'>
                 <div className='svg'>
-                  <a href={project.git}>
+                  <a href={project.git} target='_blank' rel='noreferrer'>
                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
                       <g data-name='Layer 2'>
                         <rect width='24' height='24' opacity='0' />
@@ -44,7 +42,7 @@ const Projects = () => {
                 </div>
                 {project.live ? (
                   <div className='svg'>
-                    <a href={project.live}>
+                    <a href={project.live} target='_blank' rel='noreferrer'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         viewBox='0 0 24 24'
@@ -66,8 +64,7 @@ const Projects = () => {
               <h3>{project.title}</h3>
             </header>
             <div className='mainContent'>
-              <p>{project.description}</p>
-              {project.description2 ? <p>{project.description2}</p> : null}
+              <p className='description'>{project.description}</p>
             </div>
             <footer>
               {project.uses.map((used) => (

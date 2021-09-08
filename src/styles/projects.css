@@ -3,12 +3,12 @@
   padding: 2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   row-gap: 50px;
 }
 
 .project {
-  padding: 1em;
+  padding: 2em;
   /* background-color: #1d1a17; */
   background-color: #5980c2;
   color: #e8e8e8;
@@ -23,6 +23,8 @@ svg {
 
 h3 {
   color: #e8e8e8;
+  margin-top: 1em;
+  font-size: 1.5vw;
 }
 
 .projectImage {
@@ -35,6 +37,13 @@ h3 {
   justify-content: space-between;
 }
 
-a {
-  color: #00c0c0;
+.description {
+  margin: 1em 0;
+}
+
+.project footer {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.8;
 }
