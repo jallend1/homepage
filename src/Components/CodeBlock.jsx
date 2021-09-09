@@ -49,6 +49,8 @@ const CodeBlock = () => {
           <span className="delimiter">, </span>
           <span className="values">&nbsp;&quot;MaterialUI&quot;</span>
           <span className="delimiter">, </span>
+          <span className="values">&nbsp;&quot;WordPress&quot;</span>
+          <span className="delimiter">, </span>
           <span className="values">&nbsp;&quot;Bootstrap&quot;</span>
           <span className="variables">]</span>
           <span className="delimiter">, </span>

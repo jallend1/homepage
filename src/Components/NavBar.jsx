@@ -20,12 +20,13 @@ const NavBar = () => {
             Projects
           </NavLink>
         </li>
-        <li>
+        {/* Temporarily removes About and Contact pages until deployment */}
+        {/* <li>
           <NavLink to="/about" className="menu-item">
             About
           </NavLink>
         </li>
-        <li className="menu-item cta">CONTACT</li>
+        <li className="menu-item cta">CONTACT</li> */}
       </ul>
     </nav>
   );
