@@ -1,8 +1,12 @@
+import { useEffect } from 'react'
 import CodeBlock from "./CodeBlock";
 import Contact from "./Contact";
 import coffee from "../assets/images/jason-1.jpg";
 
 const Main = () => {
+  // Preloads image
+  useEffect(() => new Image().src = coffee, []);
+
   return (
     <div className="container">
       <div className="left">

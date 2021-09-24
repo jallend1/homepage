@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Jason D. Allen 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Love Languages ❤️
 
-## Available Scripts
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript)
+![React](http://img.shields.io/badge/-React-000000?style=for-the-badge&logo=React)
+![Nextdotjs](http://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=Nextdotjs)
+![HTML5](https://img.shields.io/badge/-HTML5-000000?style=for-the-badge&logo=HTML5)
+![CSS3](https://img.shields.io/badge/-CSS3-000000?style=for-the-badge&logo=CSS3)
+![JSON](http://img.shields.io/badge/-Json-000000?style=for-the-badge&logo=Json)
+![NodeJS](http://img.shields.io/badge/-NodeJS-000000?style=for-the-badge&logo=Nodedotjs)
+![Markdown](http://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=Markdown)
+![Git](http://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=Git)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Favorite Tools 🧰
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Github](http://img.shields.io/badge/-Github-000000?style=for-the-badge&logo=Github&logoColor=green)
+![VS Code](http://img.shields.io/badge/-VS%20Code-000000?style=for-the-badge&logo=Visual-studio-code&logoColor=blue)
+![Netlify](http://img.shields.io/badge/-Netlify-000000?style=for-the-badge&logo=Netlify)
+![Figma](http://img.shields.io/badge/-Figma-000000?style=for-the-badge&logo=Figma)
+![Firebase](http://img.shields.io/badge/-Firebase-000000?style=for-the-badge&logo=Firebase)
+![Materialui](http://img.shields.io/badge/-Materialui-000000?style=for-the-badge&logo=Materialui)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Quick Hits ⚡
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ☕ : Living in Seattle, WA
+- 📚 : Working at King County Library System
+- 🕵️‍♂️ : Interested in all things web 🔗, learning new things 💡, and cats 🐱
+- 💬 : Contact me over web design 🎨, spicy Star Trek opinions 🖖
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Engage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [![Linkedin Badge](https://img.shields.io/badge/-Jason_D._Allen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ishagupta20//)](https://www.linkedin.com/in/jallend1/) - Connect with me on LinkedIn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [![Twitter Badge](https://img.shields.io/badge/-Jason_Allen-1ca0f1?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/cornerofjustice)](https://twitter.com/cornerofjustice) - See my Tweets about the web, Star Trek, and my cats
 
-### `npm run eject`
+- [![Gmail Badge](https://img.shields.io/badge/jallend1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jallend1@gmail.com)](mailto:jallend1@gmail.com) - Let's engage off social media!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!--
+**jallend1/jallend1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here are some ideas to get you started:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
